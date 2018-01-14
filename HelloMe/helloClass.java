@@ -14,6 +14,7 @@ public class helloClass {
 		System.out.println("Your name is: " );
 		yourName = userName.next();
 		System.out.println("Hello " + yourName);
+		Scanner.close();
 		
 	}
 
